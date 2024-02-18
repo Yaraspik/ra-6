@@ -1,0 +1,100 @@
+.app-watches {
+  max-width: 425px;
+
+  .card {
+    width: 200px;
+    margin-bottom: 25px;
+    flex-direction: row-reverse;
+  }
+
+  .watch-list {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 425px;
+  }
+
+  .btn-close {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+}
+
+.app-notes {
+  margin-top: 25px;
+  border-top: 5px solid black;
+
+  li {
+    list-style-type: none;
+  }
+
+  .App {
+    margin: 20px;
+  }
+
+  .header__title_box {
+    display: flex;
+  }
+
+  .btn:hover {
+    background: rgb(73, 204, 73);
+    border: 1px solid rgb(73, 204, 73);
+  }
+
+  .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 21px;
+  }
+
+  .byn__reboot {
+    margin: auto 11px;
+  }
+
+  .btn-add {
+    position: relative;
+    left: -53px;
+    bottom: 28px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .btn-add:hover {
+    color: white;
+  }
+
+  .item {
+    position: relative;
+    min-width: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid;
+  }
+
+  .lists__box {
+    display: flex;
+  }
+
+  .btn__close {
+    position: absolute;
+    top: -24px;
+    right: -19px;
+  }
+
+  .btn__close::after {
+    content: X;
+  }
+
+  .btn__close:hover {
+    background: white;
+    color: red;
+    border: 1px solid red;
+  }
+
+  .form__textarea {
+    padding: 10px;
+    resize: none;
+  }
+}
